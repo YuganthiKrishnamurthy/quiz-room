@@ -1,0 +1,71 @@
+.Login {
+    font-size:20px;
+    font-weight:bold;
+    text-align:center;
+}
+/* Style reference for video as background: https://www.youtube.com/watch?v=05ZHUuQVvJM */
+.videoContainer{
+    position: relative;
+    width:100%;
+    filter:opacity(40%);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    overflow:hidden;
+}
+.loginContent{
+    position:absolute;
+    right:35%;
+    width:30%;
+    top:45%;
+    text-align:center;
+}
+.loginDetails{
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: #2460a9;
+}
+.userNameField{
+    margin-left:12px;
+    margin-top:6px;
+}
+.passwordField{
+    margin-left:15px;
+    margin-top:5px;
+
+}
+.warning{
+    font-style:italic;
+    color:#ed4747;
+    font-size:14px;
+    font-family: Roboto;
+}
+.forgot{
+    padding-left:6em;
+    padding-bottom:4px;
+    font-weight:bold;
+    cursor:pointer;
+    font-family: Roboto;
+    font-size:14px;
+}
+.loginButton{
+    margin-left:70px;
+}
+.popupName{
+    font-size:22px;
+    text-align:left;
+    font-weight:bold;
+    font-family:Roboto;
+    padding-left:20px;
+    padding-top:10px;
+}
+.popupUsernameEnter{
+    font-family: Roboto;
+    font-size:16px;
+    padding-top:10px;
+}
+.popupTextField{
+    margin-left:20px;
+    margin-top:10px;
+}
