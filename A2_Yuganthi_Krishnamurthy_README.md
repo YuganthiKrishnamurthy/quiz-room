@@ -69,6 +69,25 @@ The below mentioned test cases represent end to end manual testing for our appli
 
 Deployed in Heroku - https://quiz-room.herokuapp.com/
 
+## Development path for each page
+```
+1. Login Page
+  - HTML - /src/containers/Login/Login.js
+  - CSS - /src/containers/Login/Login.css
+2. Instructions Page
+  - HTML - /src/components/Instructions/Instructions.js
+  - CSS - /src/components/Instructions/Instructions.css
+3. Quiz Page
+  - HTML - /src/containers/Quiz/Quiz.js
+  - CSS - /src/containers/Quiz/Quiz.css
+4. Thankyou Page
+  - HTML - /src/components/Thankyou/Thankyou.js
+  - CSS - /src/components/Thankyou/Thankyou.css
+5. Switcher Component
+  - HTML - /src/components/Switcher/Switcher.js
+  - CSS - /src/components/Switcher/Switcher.css
+```
+
 ## Built With
 
 * [Bootstrap](//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css) - Used for styling elements and responsiveness across the applicaton
