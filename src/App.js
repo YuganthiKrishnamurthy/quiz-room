@@ -61,11 +61,16 @@ class App extends Component {
       </div>
     }
     return (
-      <div className="App">
-        {display}
-      </div>
+      // https://www.geeksforgeeks.org/meaning-of-numbers-in-col-md-4-col-xs-1-col-lg-2-in-bootstrap/
+        <section className="row">
+          <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div className="App">
+              {display}
+            </div>
+          </div>
+        </section>
+      
     );
   }
 }
-
 export default App;

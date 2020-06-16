@@ -19,20 +19,32 @@
     width:30%;
     top:45%;
     text-align:center;
+    border-radius: 100px;
+    padding: 5em 10em 4em 0em;
+    background-color: #e8c97b;
+    filter: opacity(0.8);
 }
 .loginDetails{
     font-size: 18px;
     font-family: Roboto;
     font-weight: bold;
     color: #2460a9;
+    text-align: right;
+}
+.quizroom{
+    padding-left: 8em;
+    padding-bottom: 1em;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: Roboto;
+    font-style: italic;
+    color: #2460a9;
 }
 .userNameField{
-    margin-left:12px;
-    margin-top:6px;
+    float: left;
 }
 .passwordField{
-    margin-left:15px;
-    margin-top:5px;
+    text-align:left;
 
 }
 .warning{
@@ -42,15 +54,17 @@
     font-family: Roboto;
 }
 .forgot{
-    padding-left:6em;
     padding-bottom:4px;
     font-weight:bold;
     cursor:pointer;
     font-family: Roboto;
     font-size:14px;
+    padding-left:2px;
 }
 .loginButton{
-    margin-left:70px;
+    text-align:left;
+    padding-left:5em;
+    padding-top:0.6em;
 }
 .popupName{
     font-size:22px;

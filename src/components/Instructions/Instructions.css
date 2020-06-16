@@ -7,8 +7,24 @@
     text-align:center;
     padding-bottom:10px;
     font-family:roboto;
+    color:#607795;
 }
 .instructionsButton{
     padding-top:20px;
     text-align:center;
+}
+.instructionContent{
+    font-family: Roboto;
+    border: 1px solid #D8D8D8;
+    box-shadow: 0 0 25px #7e8795;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top:50px;
+    border-radius: 2px;
+    text-align: center;
+    min-height: 30em;
+}
+.instructionsContainer{
+    background-color:#F0FFFF;
+    min-height:800px;
 }

@@ -1,9 +1,29 @@
 .userDetails{
     text-align:right;
+    background: rgb(0,36,35);
+    /* https://cssgradient.io/ */
+    background: linear-gradient(90deg, rgba(0,36,35,1) 0%, rgba(9,90,121,1) 30%, rgba(0,211,255,1) 84%);
+    height:100px;
 }
 .userName{
-    font-size:16px;
+    font-size:20px;
     font-weight:bold;
     font-family:Roboto;
     padding-right:10px;
+    padding-top:10px;
+}
+.logout{
+    padding-top:1em;
+    padding-right:1em;
+}
+.title{
+    text-align:left;
+    font-size:26px;
+    color:white;
+    font-weight:bold;
+    font-style:italic;
+    font-family:Roboto;
+    position:relative;
+    top:1.5em;
+    left:2em;
 }
